@@ -16,11 +16,11 @@ body {
 header, footer {
 	margin: 0;
 	padding: 0;
-	background: cyan;
+	background:darkcyan;
 }
 footer {
 	position: absolute;
-	top: 750px;
+	bottom: 0px;
 	width: 100%;
 }
 ul {
@@ -44,3 +44,28 @@ section, form {
 section h1 {
 	margin: 8px;
 }
+
+#home {
+	background-image: url("../img/photos.png");
+}
+
+#intro {
+	margin: 15%;
+	background-color: #008b8bcc;
+	color: white;
+}
+
+#intro p {
+	padding: 4vh;
+}
+
+#bio {
+	width: 60%;
+	margin: auto;
+}
+
+#bio p {
+	margin-top: 2vh;
+}
+
+

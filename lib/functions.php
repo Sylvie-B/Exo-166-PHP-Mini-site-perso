@@ -24,3 +24,7 @@ function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+$infosJson = file_get_contents("..\data\user.json");
+$info = json_decode($infosJson);
+//print_r($info);
+

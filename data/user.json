@@ -1,19 +1,19 @@
 {
-    "name": "Doe",
-    "first_name": "Jane",
+    "name": "Bataille",
+    "first_name": "Sylvie",
     "occupation": "Web developer",
     "experiences": [
         {
             "year": 2020,
-            "company": "Samll Startup"
-        },
-        {
-            "year": 2019,
-            "company": "World Corp"
-        },
-        {
-            "year": 2018,
             "company": "Formation UpTo Fourmies"
+        },
+        {
+            "year": 2006,
+            "company": "Ecole Les Lilas"
+        },
+        {
+            "year": 2000,
+            "company": "Lycée Camille Claudel"
         }
     ]
 }
