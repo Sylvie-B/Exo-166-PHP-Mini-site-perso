@@ -20,3 +20,8 @@
     </p>
 
 </section>
+<div id="pict">
+    <img src="../img/flower01.jpg" title="beaded flower" alt="bague en perles rose">
+    <img src="../img/japan-ari-01.jpg" title="japan-ari exposition" alt="expo japon">
+    <img src="../img/rose3D.jpg" title="3D modelisation" alt="rose modélisée">
+</div>

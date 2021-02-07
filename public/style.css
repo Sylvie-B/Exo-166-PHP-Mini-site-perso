@@ -43,7 +43,7 @@ a {
 	text-decoration: none;
 }
 
-section, form {
+section, form, form div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -57,13 +57,13 @@ section h1 {
 #home {
 	background-image: url("../img/photos.png");
 	background-size: cover;
-	padding: 3% 10%;
+	padding: 2% 10%;
 }
 
 .intro {
 	background-color: #008b8bcc;
 	color: white;
-	margin: 2vh auto;
+	margin: 3vh auto;
 	padding: 3%;
 }
 
@@ -79,4 +79,12 @@ section h1 {
 #creation {
 	margin-top: 10vh;
 	height: 10vh;
+}
+
+#pict img {
+	 width: 25%;
+}
+
+button {
+	margin: 1vh;
 }
