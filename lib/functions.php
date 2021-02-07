@@ -25,7 +25,7 @@ function getPart($name) {
 }
 
 function getUserData () {
-    $infosJson = file_get_contents("..\data\user.json");
+    $infosJson = file_get_contents("http://sylvie.up-to.fr/Exo-166-PHP-Mini-site-perso/data/user.json");
     $infos = json_decode($infosJson, true);
 
     echo $infos['first_name']." ".$infos['name']."<br>".$infos['occupation']."<br>";
