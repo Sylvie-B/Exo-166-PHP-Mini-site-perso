@@ -24,7 +24,16 @@ function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
-$infosJson = file_get_contents("..\data\user.json");
-$info = json_decode($infosJson);
-//print_r($info);
+function getUserData () {
+    $infosJson = file_get_contents("..\data\user.json");
+    $infos = json_decode($infosJson, true);
+
+    echo $infos['first_name']." ".$infos['name']."<br>".$infos['occupation']."<br>";
+    foreach ($infos['experiences'] as $info){
+        foreach ($info as $item => $value){
+            echo $value."<br>";
+        }
+    }
+}
+
 

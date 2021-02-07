@@ -10,7 +10,7 @@
         De 2006 à 2016 j'enchaine les contrats aidés en tant qu'aide administrative aux directeurs d'écoles
     </p>
     <p>
-        Parallèlement je créer mon auto-entreprise en création de bijoux artisanaux de 2014 à 2020
+        Parallèlement de 2014 à 2020 je suis auto-entrepreneuse en création de bijoux artisanaux
     </p>
     <p>
         En 2018, je découvre l'impression 3D et la modélisation au fab lab de Fourmies
@@ -20,4 +20,3 @@
     </p>
 
 </section>
-

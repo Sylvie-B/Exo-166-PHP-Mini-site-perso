@@ -10,7 +10,5 @@
         <header>
             <h1>Sylvie Bataille</h1>
             <?php getPart('menu'); ?>
-
-
         </header>
     
