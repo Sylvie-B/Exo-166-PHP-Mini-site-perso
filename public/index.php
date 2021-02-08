@@ -6,18 +6,14 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 /* nous verrons plus tard comment se passer de ces 3 lignes */
 
-
 // on inclue le fichier qui contient nos fonctions
 require __DIR__ . '/../lib/functions.php';
-
 
 // display header
 getPart('header');
 
 // display home or bio or contact
 getContent();
-
-
 
 // display
 getPart('footer');

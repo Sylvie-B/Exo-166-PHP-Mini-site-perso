@@ -8,7 +8,7 @@
         </div>
         <div>
             <label for="message">votre message</label>
-            <textarea name="userTxt" id="message" cols="30" rows="10">ici votre message</textarea>
+            <textarea name="userTxt" id="message" cols="30" rows="10"></textarea>
         </div>
         <button type="submit">valider</button>
     </form>
